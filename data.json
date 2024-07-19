@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "question": "What is the output of the following code?",
+        "code": "console.log(2 + 2);",
+        "answers": ["2", "4", "22", "undefined"],
+        "correctAnswer": 1
+    },
+    {
+        "id": 2,
+        "question": "What is the output of the following code?",
+        "code": "console.log(typeof 'Hello');",
+        "answers": ["string", "number", "object", "undefined"],
+        "correctAnswer": 0
+    },
+    {
+        "id": 3,
+        "question": "What is the output of the following code?",
+        "code": "console.log(5 > 3 && 3 < 2);",
+        "answers": ["true", "false", "undefined", "NaN"],
+        "correctAnswer": 1
+    },
+    {
+        "id": 4,
+        "question": "What is the output of the following code?",
+        "code": "console.log([1, 2] + [3, 4]);",
+        "answers": ["[1, 2, 3, 4]", "6", "1,23,4", "undefined"],
+        "correctAnswer": 2
+    },
+    {
+        "id": 5,
+        "question": "What is the output of the following code?",
+        "code": "console.log(!!null);",
+        "answers": ["true", "false", "undefined", "null"],
+        "correctAnswer": 1
+    },
+    {
+        "id": 6,
+        "question": "What is the output of the following code?",
+        "code": "console.log(3 === '3');",
+        "answers": ["true", "false", "undefined", "NaN"],
+        "correctAnswer": 1
+    },
+    {
+        "id": 7,
+        "question": "What is the output of the following code?",
+        "code": "console.log(typeof NaN);",
+        "answers": ["number", "string", "undefined", "object"],
+        "correctAnswer": 0
+    },
+    {
+        "id": 8,
+        "question": "What is the output of the following code?",
+        "code": "console.log(0.1 + 0.2 === 0.3);",
+        "answers": ["true", "false", "undefined", "NaN"],
+        "correctAnswer": 1
+    },
+    {
+        "id": 9,
+        "question": "What is the output of the following code?",
+        "code": "console.log('5' - 2);",
+        "answers": ["3", "52", "undefined", "NaN"],
+        "correctAnswer": 0
+    },
+    {
+        "id": 10,
+        "question": "What is the output of the following code?",
+        "code": "console.log(typeof undefined);",
+        "answers": ["undefined", "object", "string", "number"],
+        "correctAnswer": 3
+    }
+]
