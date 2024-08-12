@@ -17,7 +17,7 @@ function App() {
           justifyContent="center"
         >
           <JavaScriptLogo />
-          <Typography variant="h2" component="h1">
+          <Typography style={{fontSize: "2rem"}} variant="h2" component="h1">
             Javascript Quizz
           </Typography>
         </Stack>
