@@ -47,9 +47,10 @@ const Question = ({ info }: { info: QuestionType }) => {
         justifyContent: "start",
         padding: "8px 16px",
         background: "#222",
+        width: "100%"
       }}
     >
-      <Typography variant="h5">{info.question}</Typography>
+      <Typography style={{display: "flex"}} variant="h5">{info.question}</Typography>
       <SyntaxHighlighter
         customStyle={{ width: "100%", display: "flex", flexDirection: "column" }}
         language="javascript"
