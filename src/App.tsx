@@ -18,7 +18,7 @@ function App() {
         >
           <JavaScriptLogo />
           <Typography style={{fontSize: "2rem"}} variant="h2" component="h1">
-            Javascript Quizz
+            Preguntas de Morfología
           </Typography>
         </Stack>
         {questions.length === 0 && <Start/>}
