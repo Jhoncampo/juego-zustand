@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "question": "¿Cuál es la función principal de los incisivos?",
+        "correctAnswer": "✅Cortar los alimentos"
+    },
+    {
+        "id": 2,
+        "question": "¿Cuántos caninos hay en una dentadura humana completa?",
+        "correctAnswer": "✅4"
+    },
+    {
+        "id": 3,
+        "question": "¿Cuál es la función principal de los molares?",
+        "correctAnswer": "✅Moler los alimentos"
+    },
+    {
+        "id": 4,
+        "question": "¿Cómo se llaman los dientes que aparecen después de los primeros molares en la etapa adulta?",
+        "correctAnswer": "✅Premolares"
+    },
+    {
+        "id": 5,
+        "question": "¿Qué tipo de dientes se utilizan para desgarrar la comida?",
+        "correctAnswer": "✅Caninos"
+    },
+    {
+        "id": 6,
+        "question": "¿Cuál de los siguientes dientes tiene una sola raíz?",
+        "correctAnswer": "✅Incisivo"
+    },
+    {
+        "id": 7,
+        "question": "¿Qué característica distingue a los molares superiores?",
+        "correctAnswer": "✅ Tres raíces"
+    },
+    {
+        "id": 8,
+        "question": "¿Cuántas raíces tienen típicamente los premolares inferiores?",
+        "correctAnswer": "✅Una"
+    },
+    {
+        "id": 9,
+        "question": "¿Cómo se llaman los últimos dientes en erupcionar, generalmente entre los 17 y 25 años?",
+        "correctAnswer": "✅Muelas del juicio"
+    },
+    {
+        "id": 10,
+        "question": "¿Cuál es la función principal de los premolares?",
+        "correctAnswer": "✅Triturar y desgarrar los alimentos"
+    }
+]

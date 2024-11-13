@@ -11,6 +11,7 @@ interface State {
   goNextQuestion: () => void;
   goPreviousQuestion: () => void;
   reset: () => void;
+  sentEmail: () => void
 }
 
 export const useQuestionsStore = create<State>()(
@@ -23,7 +24,6 @@ export const useQuestionsStore = create<State>()(
           fetchQuestions: async (limit: number) => {
             const res = await fetch("http://localhost:5173/data.json");
             const json = await res.json();
-
             const questions = json
               .sort(() => Math.random() - 0.5)
               .slice(0, limit);
@@ -76,6 +76,10 @@ export const useQuestionsStore = create<State>()(
           reset: () => {
             set({ currentQuestion: 0, questions: [] }, false, "RESET");
           },
+          sentEmail: async () => {
+            //await sendAnswersEmail()
+            console.log("hola")
+          }
         };
       },
       { name: "questions" }

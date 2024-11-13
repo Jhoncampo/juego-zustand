@@ -1,72 +1,72 @@
 [
     {
         "id": 1,
-        "question": "¿Cuál será el resultado del siguiente código?",
-        "code": "console.log([] + {} === {} + []);",
-        "answers": ["true", "false", "undefined", "TypeError"],
+        "question": "¿Cuál es la función principal de los incisivos?",
+        "code": "toothType = 'incisivos'; // ¿Cuál es su función principal?",
+        "answers": ["Cortar los alimentos", "Triturar los alimentos", "Moler los alimentos", "Sujetar los alimentos"],
         "correctAnswer": 0
     },
     {
         "id": 2,
-        "question": "¿Qué valor se mostrará en la consola?",
-        "code": "let a = [1, 2, 3]; let b = a; b.push(4); console.log(a);",
-        "answers": ["[1, 2, 3]", "[1, 2, 3, 4]", "undefined", "TypeError"],
-        "correctAnswer": 1
+        "question": "¿Cuántos caninos hay en una dentadura humana completa?",
+        "code": "teethType = 'caninos'; // ¿Cuántos hay en total?",
+        "answers": ["4", "2", "6", "8"],
+        "correctAnswer": 0
     },
     {
         "id": 3,
-        "question": "¿Cuál es la salida del siguiente código?",
-        "code": "function foo() { return; { bar: 10; } } console.log(typeof foo());",
-        "answers": ["'object'", "'number'", "'undefined'", "'function'"],
-        "correctAnswer": 2
+        "question": "¿Cuál es la función principal de los molares?",
+        "code": "toothType = 'molares'; // ¿Cuál es su función principal?",
+        "answers": ["Moler los alimentos", "Cortar los alimentos", "Rasgar los alimentos", "Triturar los alimentos"],
+        "correctAnswer": 0
     },
     {
         "id": 4,
-        "question": "¿Qué mostrará la consola?",
-        "code": "console.log((function(a, b) { return a + b; })(5, '5'));",
-        "answers": ["10", "'55'", "NaN", "SyntaxError"],
+        "question": "¿Cómo se llaman los dientes que aparecen después de los primeros molares en la etapa adulta?",
+        "code": "age = 'adulta'; // ¿Cómo se llaman estos dientes?",
+        "answers": ["Molares", "Premolares", "Incisivos", "Caninos"],
         "correctAnswer": 1
     },
     {
         "id": 5,
-        "question": "¿Cuál es la salida del siguiente código?",
-        "code": "let x = 0; console.log(x++); console.log(++x);",
-        "answers": ["0 y 2", "1 y 2", "0 y 1", "1 y 1"],
+        "question": "¿Qué tipo de dientes se utilizan para desgarrar la comida?",
+        "code": "action = 'desgarrar'; // ¿Qué dientes se usan para esto?",
+        "answers": ["Caninos", "Incisivos", "Molares", "Premolares"],
         "correctAnswer": 0
     },
     {
         "id": 6,
-        "question": "¿Qué se imprimirá en la consola?",
-        "code": "console.log([1, 2, 3].map(num => { if (num % 2 === 0) return; return num; }));",
-        "answers": ["[1, undefined, 3]", "[1, null, 3]", "[1, , 3]", "[1, 3]"],
-        "correctAnswer": 2
+        "question": "¿Cuál de los siguientes dientes tiene una sola raíz?",
+        "code": "toothOptions = ['Incisivo', 'Molar', 'Premolar', 'Canino']; // ¿Cuál tiene una sola raíz?",
+        "answers": ["Incisivo", "Molar", "Premolar", "Canino"],
+        "correctAnswer": 0
     },
     {
         "id": 7,
-        "question": "¿Cuál es el tipo del valor devuelto por `typeof NaN`?",
-        "code": "console.log(typeof NaN);",
-        "answers": ["'number'", "'string'", "'undefined'", "'object'"],
+        "question": "¿Qué característica distingue a los molares superiores?",
+        "code": "molarType = 'superiores'; // ¿Qué característica los distingue?",
+        "answers": ["Tres raíces", "Dos raíces", "Una sola raíz", "Sin raíces"],
         "correctAnswer": 0
     },
     {
         "id": 8,
-        "question": "¿Qué valor se mostrará en la consola?",
-        "code": "let obj = { a: 1 }; Object.freeze(obj); obj.a = 2; console.log(obj.a);",
-        "answers": ["1", "2", "undefined", "TypeError"],
+        "question": "¿Cuántas raíces tienen típicamente los premolares inferiores?",
+        "code": "toothType = 'premolares inferiores'; // ¿Cuántas raíces tienen?",
+        "answers": ["Una", "Dos", "Tres", "Cuatro"],
         "correctAnswer": 0
     },
     {
         "id": 9,
-        "question": "¿Qué mostrará la consola?",
-        "code": "console.log(typeof function() {});",
-        "answers": ["'function'", "'object'", "'undefined'", "'string'"],
+        "question": "¿Cómo se llaman los últimos dientes en erupcionar, generalmente entre los 17 y 25 años?",
+        "code": "ageRange = '17-25'; // ¿Cómo se llaman estos dientes?",
+        "answers": ["Muelas del juicio", "Caninos", "Incisivos laterales", "Premolares"],
         "correctAnswer": 0
     },
     {
         "id": 10,
-        "question": "¿Cuál es la salida del siguiente código?",
-        "code": "let a = 10; let b = (a => a * 2)(a); console.log(a, b);",
-        "answers": ["10 20", "20 20", "10 10", "20 10"],
+        "question": "¿Cuál es la función principal de los premolares?",
+        "code": "toothType = 'premolares'; // ¿Cuál es su función principal?",
+        "answers": ["Triturar y desgarrar los alimentos", "Cortar los alimentos", "Moler los alimentos", "Sujetar los alimentos"],
         "correctAnswer": 0
     }
 ]
