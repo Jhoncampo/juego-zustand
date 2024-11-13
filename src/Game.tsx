@@ -9,8 +9,6 @@ import {
   Typography,
 } from "@mui/material";
 import { useQuestionsStore } from "./store/questions";
-import SyntaxHighlighter from "react-syntax-highlighter";
-import { gradientDark } from "react-syntax-highlighter/dist/esm/styles/hljs";
 import { type Question as QuestionType } from "./types";
 import { ArrowBackIosNew, ArrowForwardIos } from "@mui/icons-material";
 import Footer from "./Footer";
@@ -50,14 +48,15 @@ const Question = ({ info }: { info: QuestionType }) => {
         width: "100%"
       }}
     >
-      <Typography style={{display: "flex"}} variant="h5">{info.question}</Typography>
-      <SyntaxHighlighter
-        customStyle={{ width: "100%", display: "flex", flexDirection: "column" }}
+      <Typography style={{textAlign: "center"}} variant="h5">{info.question}</Typography>
+      {/* <SyntaxHighlighter
+        customStyle={{ width: "100%" }}
         language="javascript"
         style={gradientDark}
       >
         {info.code}
-      </SyntaxHighlighter>
+      </SyntaxHighlighter> */}
+      <img style={{maxHeight: "300px", margin: "20px 0", borderRadius: "8px", maxWidth: "70%"}} src={`../public/image/dental/${info.image}`} alt="" />
       <List disablePadding sx={{ bgcolor: "#333", width: "100%" }}>
         {info.answers.map((answer, index) => (
           <ListItem key={index} divider>

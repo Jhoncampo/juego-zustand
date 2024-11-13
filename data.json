@@ -1,72 +1,82 @@
 [
     {
         "id": 1,
-        "question": "¿Cuál es la función principal de los incisivos?",
-        "code": "toothType = 'incisivos'; // ¿Cuál es su función principal?",
-        "answers": ["Cortar los alimentos", "Triturar los alimentos", "Moler los alimentos", "Sujetar los alimentos"],
-        "correctAnswer": 0
+        "question": "¿La morfología dental es una parte de la anatomía humana, que estudia los dientes, los tejidos de sostén y los elementos anatómicos circundantes?",
+        "code": "morphologyDental = 'morfología dental'; // ¿La morfología dental es una parte de la anatomía humana?",
+        "answers": ["Verdadero", "Falso"],
+        "correctAnswer": 0,
+        "image": "01.png"
     },
     {
         "id": 2,
-        "question": "¿Cuántos caninos hay en una dentadura humana completa?",
-        "code": "teethType = 'caninos'; // ¿Cuántos hay en total?",
-        "answers": ["4", "2", "6", "8"],
-        "correctAnswer": 0
+        "question": "¿A cuántos grados comienza la acción de la temperatura a manifestarse sobre el diente produciendo grietas en el esmalte?",
+        "code": "temperatureEffect = 'temperatura'; // ¿A cuántos grados comienza la acción de la temperatura sobre el diente?",
+        "answers": ["175 C°", "400 C°", "800 C°"],
+        "correctAnswer": 1,
+        "image": "02.png"
     },
     {
         "id": 3,
-        "question": "¿Cuál es la función principal de los molares?",
-        "code": "toothType = 'molares'; // ¿Cuál es su función principal?",
-        "answers": ["Moler los alimentos", "Cortar los alimentos", "Rasgar los alimentos", "Triturar los alimentos"],
-        "correctAnswer": 0
+        "question": "¿La ortodoncia es la que trata de reestablecer la anatomía dentaria a través de restauraciones de piezas careadas?",
+        "code": "orthodontics = 'ortodoncia'; // ¿La ortodoncia trata de restaurar piezas careadas?",
+        "answers": ["Verdadero", "Falso"],
+        "correctAnswer": 1,
+        "image": "03.png"
     },
     {
         "id": 4,
-        "question": "¿Cómo se llaman los dientes que aparecen después de los primeros molares en la etapa adulta?",
-        "code": "age = 'adulta'; // ¿Cómo se llaman estos dientes?",
-        "answers": ["Molares", "Premolares", "Incisivos", "Caninos"],
-        "correctAnswer": 1
+        "question": "¿El esmalte del diente es de origen?",
+        "code": "enamelOrigin = 'esmalte'; // ¿De qué origen es el esmalte del diente?",
+        "answers": ["Mesodérmico", "Ectodérmico", "Endodérmico"],
+        "correctAnswer": 1,
+        "image": "04.png"
     },
     {
         "id": 5,
-        "question": "¿Qué tipo de dientes se utilizan para desgarrar la comida?",
-        "code": "action = 'desgarrar'; // ¿Qué dientes se usan para esto?",
-        "answers": ["Caninos", "Incisivos", "Molares", "Premolares"],
-        "correctAnswer": 0
+        "question": "¿La dentición temporaria por cuántos dientes se encuentra conformada?",
+        "code": "temporaryDentition = 'dentición temporaria'; // ¿Cuántos dientes conforman la dentición temporaria?",
+        "answers": ["20", "22", "10"],
+        "correctAnswer": 0,
+        "image": "05.png"
     },
     {
         "id": 6,
-        "question": "¿Cuál de los siguientes dientes tiene una sola raíz?",
-        "code": "toothOptions = ['Incisivo', 'Molar', 'Premolar', 'Canino']; // ¿Cuál tiene una sola raíz?",
-        "answers": ["Incisivo", "Molar", "Premolar", "Canino"],
-        "correctAnswer": 0
+        "question": "¿El cemento del diente se encuentra en la?",
+        "code": "cementLocation = 'cemento'; // ¿Dónde se encuentra el cemento del diente?",
+        "answers": ["Corona", "Raíz", "Cuello"],
+        "correctAnswer": 1,
+        "image": "06.png"
     },
     {
         "id": 7,
-        "question": "¿Qué característica distingue a los molares superiores?",
-        "code": "molarType = 'superiores'; // ¿Qué característica los distingue?",
-        "answers": ["Tres raíces", "Dos raíces", "Una sola raíz", "Sin raíces"],
-        "correctAnswer": 0
+        "question": "¿Cuál es el tejido más duro del diente?",
+        "code": "hardestTissue = 'tejido más duro'; // ¿Cuál es el tejido más duro del diente?",
+        "answers": ["Cemento", "Dentina", "Esmalte"],
+        "correctAnswer": 2,
+        "image": "07.png"
     },
     {
         "id": 8,
-        "question": "¿Cuántas raíces tienen típicamente los premolares inferiores?",
-        "code": "toothType = 'premolares inferiores'; // ¿Cuántas raíces tienen?",
-        "answers": ["Una", "Dos", "Tres", "Cuatro"],
-        "correctAnswer": 0
+        "question": "¿Los dientes temporales también se les conoce como dientes caducos?",
+        "code": "temporaryTeeth = 'dientes temporales'; // ¿Los dientes temporales se les conoce como dientes caducos?",
+        "answers": ["Verdadero", "Falso"],
+        "correctAnswer": 0,
+        "image": "08.png"
     },
     {
         "id": 9,
-        "question": "¿Cómo se llaman los últimos dientes en erupcionar, generalmente entre los 17 y 25 años?",
-        "code": "ageRange = '17-25'; // ¿Cómo se llaman estos dientes?",
-        "answers": ["Muelas del juicio", "Caninos", "Incisivos laterales", "Premolares"],
-        "correctAnswer": 0
+        "question": "¿Cuáles son los dientes que tienen la función de desgarrar los alimentos fibrosos?",
+        "code": "tearFood = 'desgarrar alimentos'; // ¿Qué dientes desgarran alimentos fibrosos?",
+        "answers": ["Incisivos", "Caninos", "Premolares", "Molares"],
+        "correctAnswer": 1,
+        "image": "09.png"
     },
     {
         "id": 10,
-        "question": "¿Cuál es la función principal de los premolares?",
-        "code": "toothType = 'premolares'; // ¿Cuál es su función principal?",
-        "answers": ["Triturar y desgarrar los alimentos", "Cortar los alimentos", "Moler los alimentos", "Sujetar los alimentos"],
-        "correctAnswer": 0
+        "question": "¿Los molares superiores de acuerdo a su número de cúspides son?",
+        "code": "upperMolars = 'molares superiores'; // ¿Cómo se clasifican los molares superiores según su número de cúspides?",
+        "answers": ["Multicuspídeos", "Unicuspídeos", "Bicuspídeos"],
+        "correctAnswer": 0,
+        "image": "10.png"
     }
 ]
