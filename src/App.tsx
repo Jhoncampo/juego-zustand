@@ -29,7 +29,7 @@ function App() {
         >
           <img
             style={{ height: "60px", borderRadius: "6px" }}
-            src="../public/image/logo.png"
+            src="https://dental.empresataxis.online/logo.png"
             alt=""
           />
           <Typography sx={{ fontSize: "1.7rem" }} component="h1">
