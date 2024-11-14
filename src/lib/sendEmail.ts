@@ -53,52 +53,64 @@ export const sendAnswers = async (email: string) => {
 <body>
     <div class="container">
         <h1>Resultados de Morfología Dental</h1>
+
         <div class="question">
-            <strong>1. ¿Cuál es la función principal de los incisivos?</strong>
-            <p class="correct-answer">✅ Cortar los alimentos</p>
+            <strong>1. ¿La morfología dental es una parte de la anatomía humana, que estudia los dientes, los tejidos de sostén y los elementos anatómicos circundantes?</strong>
+            <p class="correct-answer">✅ Verdadero</p>
         </div>
+
         <div class="question">
-            <strong>2. ¿Cuántos caninos hay en una dentadura humana completa?</strong>
-            <p class="correct-answer">✅ 4</p>
+            <strong>2. ¿A cuántos grados comienza la acción de la temperatura a manifestarse sobre el diente produciendo grietas en el esmalte?</strong>
+            <p class="correct-answer">✅ 400 C°</p>
         </div>
+
         <div class="question">
-            <strong>3. ¿Cuál es la función principal de los molares?</strong>
-            <p class="correct-answer">✅ Moler los alimentos</p>
+            <strong>3. ¿La ortodoncia es la que trata de reestablecer la anatomía dentaria a través de restauraciones de piezas careadas?</strong>
+            <p class="correct-answer">✅ Falso</p>
         </div>
+
         <div class="question">
-            <strong>4. ¿Cómo se llaman los dientes que aparecen después de los primeros molares en la etapa adulta?</strong>
-            <p class="correct-answer">✅ Premolares</p>
+            <strong>4. ¿El esmalte del diente es de origen?</strong>
+            <p class="correct-answer">✅ Ectodérmico</p>
         </div>
+
         <div class="question">
-            <strong>5. ¿Qué tipo de dientes se utilizan para desgarrar la comida?</strong>
+            <strong>5. ¿La dentición temporaria por cuántos dientes se encuentra conformada?</strong>
+            <p class="correct-answer">✅ 20</p>
+        </div>
+
+        <div class="question">
+            <strong>6. ¿El cemento del diente se encuentra en la?</strong>
+            <p class="correct-answer">✅ Raíz</p>
+        </div>
+
+        <div class="question">
+            <strong>7. ¿Cuál es el tejido más duro del diente?</strong>
+            <p class="correct-answer">✅ Esmalte</p>
+        </div>
+
+        <div class="question">
+            <strong>8. ¿Los dientes temporales también se les conoce como dientes caducos?</strong>
+            <p class="correct-answer">✅ Verdadero</p>
+        </div>
+
+        <div class="question">
+            <strong>9. ¿Cuáles son los dientes que tienen la función de desgarrar los alimentos fibrosos?</strong>
             <p class="correct-answer">✅ Caninos</p>
         </div>
+
         <div class="question">
-            <strong>6. ¿Cuál de los siguientes dientes tiene una sola raíz?</strong>
-            <p class="correct-answer">✅ Incisivo</p>
+            <strong>10. ¿Los molares superiores de acuerdo a su número de cúspides son?</strong>
+            <p class="correct-answer">✅ Multicuspídeos</p>
         </div>
-        <div class="question">
-            <strong>7. ¿Qué característica distingue a los molares superiores?</strong>
-            <p class="correct-answer">✅ Tres raíces</p>
-        </div>
-        <div class="question">
-            <strong>8. ¿Cuántas raíces tienen típicamente los premolares inferiores?</strong>
-            <p class="correct-answer">✅ Una</p>
-        </div>
-        <div class="question">
-            <strong>9. ¿Cómo se llaman los últimos dientes en erupcionar, generalmente entre los 17 y 25 años?</strong>
-            <p class="correct-answer">✅ Muelas del juicio</p>
-        </div>
-        <div class="question">
-            <strong>10. ¿Cuál es la función principal de los premolares?</strong>
-            <p class="correct-answer">✅ Triturar y desgarrar los alimentos</p>
-        </div>
+
         <div class="footer">
-            <p>Enviado por Nodemailer</p>
+            <p>Enviado por Dental Cali</p>
         </div>
     </div>
 </body>
 </html>
+
 `,
       }
     );
