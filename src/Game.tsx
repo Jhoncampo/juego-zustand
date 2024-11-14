@@ -56,7 +56,7 @@ const Question = ({ info }: { info: QuestionType }) => {
       >
         {info.code}
       </SyntaxHighlighter> */}
-      <img style={{maxHeight: "300px", margin: "20px 0", borderRadius: "8px", maxWidth: "70%"}} src={`../public/image/dental/${info.image}`} alt="" />
+      <img style={{maxHeight: "300px", margin: "20px 0", borderRadius: "8px", maxWidth: "70%"}} src={`https://dental.empresataxis.online/${info.image}`} alt="" />
       <List disablePadding sx={{ bgcolor: "#333", width: "100%" }}>
         {info.answers.map((answer, index) => (
           <ListItem key={index} divider>
