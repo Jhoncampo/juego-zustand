@@ -103,6 +103,86 @@ export const sendAnswers = async (email: string) => {
             <strong>10. ¿Los molares superiores de acuerdo a su número de cúspides son?</strong>
             <p class="correct-answer">✅ Multicuspídeos</p>
         </div>
+        <div class="question">
+            <strong>11. ¿Cuántos dientes tiene un adulto?</strong>
+            <p class="correct-answer">✅ 32 dientes</p>
+        </div>
+        <div class="question">
+            <strong>12. ¿Qué nombre recibe lo que protege nuestros dientes?</strong>
+            <p class="correct-answer">✅ Esmalte dental</p>
+        </div>
+        <div class="question">
+            <strong>13. ¿Dónde se encuentra la pulpa del diente?</strong>
+            <p class="correct-answer">✅ En el interior del diente</p>
+        </div>
+        <div class="question">
+            <strong>14. Menciona un material que se utiliza para una impresión dental</strong>
+            <p class="correct-answer">✅ Alginatos y siliconas dentales</p>
+        </div>
+        <div class="question">
+            <strong>15. ¿Qué hace un mecánico dental?</strong>
+            <p class="correct-answer">✅ Diseña, elabora, fabrica y prepara prótesis dentales</p>
+        </div>
+        <div class="question">
+            <strong>16. ¿Cuántas caras tiene un diente anterior?</strong>
+            <p class="correct-answer">✅ Presenta cuatro caras</p>
+        </div>
+        <div class="question">
+            <strong>17. ¿Cuántas caras tiene un diente posterior?</strong>
+            <p class="correct-answer">✅ Presenta cinco caras</p>
+        </div>
+        <div class="question">
+            <strong>18. ¿Cómo se llama la reacción del yeso al endurecer?</strong>
+            <p class="correct-answer">✅ Fraguado</p>
+        </div>
+        <div class="question">
+            <strong>19. ¿Cuál es la función del diente canino con los alimentos?</strong>
+            <p class="correct-answer">✅ Desgarrar</p>
+        </div>
+        <div class="question">
+            <strong>20. ¿Qué material utilizamos como fuente de calor para encerar los dientes?</strong>
+            <p class="correct-answer">✅ Mechero</p>
+        </div>
+        <div class="question">
+            <strong>21. ¿Cómo se clasifican los dientes por morfología?</strong>
+            <p class="correct-answer">✅ Incisivos, caninos, premolares y molares</p>
+        </div>
+        <div class="question">
+            <strong>22. ¿Cuáles son las divisiones del diente?</strong>
+            <p class="correct-answer">✅ Corona, cuello y raíz</p>
+        </div>
+        <div class="question">
+            <strong>23. Mencione los tipos de dentición</strong>
+            <p class="correct-answer">✅ Temporal y permanente</p>
+        </div>
+        <div class="question">
+            <strong>24. ¿Qué es la corona anatómica?</strong>
+            <p class="correct-answer">✅ Parte del diente que está cubierta por esmalte</p>
+        </div>
+        <div class="question">
+            <strong>25. ¿Qué es una fosa?</strong>
+            <p class="correct-answer">✅ Depresión amplia y un poco profunda en la superficie del diente</p>
+        </div>
+        <div class="question">
+            <strong>26. ¿Qué es el surco de desarrollo?</strong>
+            <p class="correct-answer">✅ Depresión oclusal que separa cúspides unas de otras</p>
+        </div>
+        <div class="question">
+            <strong>27. ¿Qué es una cúspide?</strong>
+            <p class="correct-answer">✅ Elevación de esmalte que tiene su cimiento en la dentina</p>
+        </div>
+        <div class="question">
+            <strong>28. ¿Qué es el borde cervical?</strong>
+            <p class="correct-answer">✅ Ligera elevación de esmalte por encima de la línea cervical</p>
+        </div>
+        <div class="question">
+            <strong>29. ¿Qué son los mamelones?</strong>
+            <p class="correct-answer">✅ Es la parte terminal del lóbulo</p>
+        </div>
+        <div class="question">
+            <strong>30. ¿Cuáles son las caras proximales?</strong>
+            <p class="correct-answer">✅ Distal y mesial</p>
+        </div>
 
         <div class="footer">
             <p>Enviado por Dental Cali</p>
