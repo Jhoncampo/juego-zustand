@@ -57,7 +57,7 @@ export default function ButtonSendAnswers() {
 
   return (
     <div>
-      <Button onClick={handleOpen}>Resultados</Button>
+      <Button onClick={handleOpen}>Ver respuestas</Button>
       <Modal
         aria-labelledby="transition-modal-title"
         aria-describedby="transition-modal-description"

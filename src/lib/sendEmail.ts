@@ -183,6 +183,46 @@ export const sendAnswers = async (email: string) => {
             <strong>30. ¿Cuáles son las caras proximales?</strong>
             <p class="correct-answer">✅ Distal y mesial</p>
         </div>
+        <div class="question">
+            <strong>31. ¿Cuál de los siguientes metales se utiliza comúnmente como núcleo para una corona dental debido a su biocompatibilidad y resistencia a la corrosión?</strong>
+            <p class="correct-answer">✅ Oro</p>
+        </div>
+        <div class="question">
+            <strong>32. ¿Qué propiedad de una aleación dental es esencial para garantizar un buen ajuste de una prótesis fija?</strong>
+            <p class="correct-answer">✅ Expansión térmica</p>
+        </div>
+        <div class="question">
+            <strong>33. ¿Cuál de los siguientes procesos se utiliza para unir dos piezas metálicas en una prótesis dental?</strong>
+            <p class="correct-answer">✅ Soldadura</p>
+        </div>
+        <div class="question">
+            <strong>34. ¿Qué tipo de aleación dental se caracteriza por su alta resistencia a la corrosión y su uso en prótesis fijas de larga duración?</strong>
+            <p class="correct-answer">✅ Aleaciones base cobalto-cromo</p>
+        </div>
+        <div class="question">
+            <strong>35. ¿Cuál de los siguientes factores puede afectar la resistencia de una aleación dental?</strong>
+            <p class="correct-answer">✅ Todas las anteriores</p>
+        </div>
+        <div class="question">
+            <strong>36. ¿Qué tipo de corrosión se produce cuando una aleación dental entra en contacto con saliva y forma una película de óxido?</strong>
+            <p class="correct-answer">✅ Corrosión uniforme</p>
+        </div>
+        <div class="question">
+            <strong>37. ¿Cuál es la principal función del revestimiento en el proceso de fundición de una prótesis dental?</strong>
+            <p class="correct-answer">✅ Todas las anteriores</p>
+        </div>
+        <div class="question">
+            <strong>38. ¿Qué tipo de aleación dental se utiliza comúnmente para fabricar armazones de prótesis removibles?</strong>
+            <p class="correct-answer">✅ Aleaciones base cobalto-cromo</p>
+        </div>
+        <div class="question">
+            <strong>39. ¿Cuál de los siguientes tratamientos térmicos se utiliza para aumentar la dureza de una aleación dental?</strong>
+            <p class="correct-answer">✅ Endurecimiento por precipitación</p>
+        </div>
+        <div class="question">
+            <strong>40. ¿Qué propiedad de una aleación dental es importante para garantizar una buena estética de una restauración dental?</strong>
+            <p class="correct-answer">✅ Color</p>
+        </div>
 
         <div class="footer">
             <p>Enviado por Dental Cali</p>

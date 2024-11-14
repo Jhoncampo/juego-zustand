@@ -13,6 +13,7 @@ function App() {
           display: "flex",
           alignItems: "center",
           flexDirection: "column",
+          padding: "20px 12px"
         }}
         maxWidth="md"
       >
