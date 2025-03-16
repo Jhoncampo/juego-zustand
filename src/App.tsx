@@ -32,7 +32,7 @@ function App() {
             src="https://cd.empresataxis.online/logo-ia.webp"
             alt=""
           />
-          <Typography sx={{ fontSize: "1.7rem" }} component="h1">
+          <Typography sx={{ fontSize: "1.7rem", textAlign: "center" }} component="h1">
             Preguntas sobre la inteligencia artificial (IA)
           </Typography>
         </Stack>
