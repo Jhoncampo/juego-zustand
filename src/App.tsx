@@ -30,11 +30,11 @@ function App() {
         >
           <img
             style={{ height: "60px", borderRadius: "6px" }}
-            src="https://dental.empresataxis.online/logo.png"
+            src="https://cd.empresataxis.online/logo-ia.webp"
             alt=""
           />
           <Typography sx={{ fontSize: "1.7rem" }} component="h1">
-            Preguntas de Morfología
+            Preguntas sobre la inteligencia artificial (IA)
           </Typography>
         </Stack>
         {questions.length === 0 && <Start />}

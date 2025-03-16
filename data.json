@@ -1,82 +1,112 @@
 [
-    {
-        "id": 1,
-        "question": "¿La morfología dental es una parte de la anatomía humana, que estudia los dientes, los tejidos de sostén y los elementos anatómicos circundantes?",
-        "code": "morphologyDental = 'morfología dental'; // ¿La morfología dental es una parte de la anatomía humana?",
-        "answers": ["Verdadero", "Falso"],
-        "correctAnswer": 0,
-        "image": "01.png"
-    },
-    {
-        "id": 2,
-        "question": "¿A cuántos grados comienza la acción de la temperatura a manifestarse sobre el diente produciendo grietas en el esmalte?",
-        "code": "temperatureEffect = 'temperatura'; // ¿A cuántos grados comienza la acción de la temperatura sobre el diente?",
-        "answers": ["175 C°", "400 C°", "800 C°"],
-        "correctAnswer": 1,
-        "image": "02.png"
-    },
-    {
-        "id": 3,
-        "question": "¿La ortodoncia es la que trata de reestablecer la anatomía dentaria a través de restauraciones de piezas careadas?",
-        "code": "orthodontics = 'ortodoncia'; // ¿La ortodoncia trata de restaurar piezas careadas?",
-        "answers": ["Verdadero", "Falso"],
-        "correctAnswer": 1,
-        "image": "03.png"
-    },
-    {
-        "id": 4,
-        "question": "¿El esmalte del diente es de origen?",
-        "code": "enamelOrigin = 'esmalte'; // ¿De qué origen es el esmalte del diente?",
-        "answers": ["Mesodérmico", "Ectodérmico", "Endodérmico"],
-        "correctAnswer": 1,
-        "image": "04.png"
-    },
-    {
-        "id": 5,
-        "question": "¿La dentición temporaria por cuántos dientes se encuentra conformada?",
-        "code": "temporaryDentition = 'dentición temporaria'; // ¿Cuántos dientes conforman la dentición temporaria?",
-        "answers": ["20", "22", "10"],
-        "correctAnswer": 0,
-        "image": "05.png"
-    },
-    {
-        "id": 6,
-        "question": "¿El cemento del diente se encuentra en la?",
-        "code": "cementLocation = 'cemento'; // ¿Dónde se encuentra el cemento del diente?",
-        "answers": ["Corona", "Raíz", "Cuello"],
-        "correctAnswer": 1,
-        "image": "06.png"
-    },
-    {
-        "id": 7,
-        "question": "¿Cuál es el tejido más duro del diente?",
-        "code": "hardestTissue = 'tejido más duro'; // ¿Cuál es el tejido más duro del diente?",
-        "answers": ["Cemento", "Dentina", "Esmalte"],
-        "correctAnswer": 2,
-        "image": "07.png"
-    },
-    {
-        "id": 8,
-        "question": "¿Los dientes temporales también se les conoce como dientes caducos?",
-        "code": "temporaryTeeth = 'dientes temporales'; // ¿Los dientes temporales se les conoce como dientes caducos?",
-        "answers": ["Verdadero", "Falso"],
-        "correctAnswer": 0,
-        "image": "08.png"
-    },
-    {
-        "id": 9,
-        "question": "¿Cuáles son los dientes que tienen la función de desgarrar los alimentos fibrosos?",
-        "code": "tearFood = 'desgarrar alimentos'; // ¿Qué dientes desgarran alimentos fibrosos?",
-        "answers": ["Incisivos", "Caninos", "Premolares", "Molares"],
-        "correctAnswer": 1,
-        "image": "09.png"
-    },
-    {
-        "id": 10,
-        "question": "¿Los molares superiores de acuerdo a su número de cúspides son?",
-        "code": "upperMolars = 'molares superiores'; // ¿Cómo se clasifican los molares superiores según su número de cúspides?",
-        "answers": ["Multicuspídeos", "Unicuspídeos", "Bicuspídeos"],
-        "correctAnswer": 0,
-        "image": "10.png"
-    }
+  {
+    "id": 1,
+    "question": "¿Qué es la Inteligencia Artificial (IA)?",
+    "answers": [
+      "Una rama de la informática que busca crear máquinas inteligentes",
+      "Un tipo de red social",
+      "Un lenguaje de programación",
+      "Un dispositivo electrónico"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 2,
+    "question": "¿Cuál de los siguientes es un ejemplo de IA en la vida diaria?",
+    "answers": [
+      "Asistentes virtuales como Siri o Alexa",
+      "Calculadoras básicas",
+      "Lámparas inteligentes",
+      "Televisores antiguos"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 3,
+    "question": "¿Qué es el aprendizaje automático (Machine Learning)?",
+    "answers": [
+      "Un subcampo de la IA que permite a las máquinas aprender de los datos",
+      "Un tipo de hardware",
+      "Un lenguaje de programación",
+      "Una red social"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 4,
+    "question": "¿Qué es un chatbot?",
+    "answers": [
+      "Un programa que simula conversaciones humanas",
+      "Un tipo de robot físico",
+      "Un lenguaje de programación",
+      "Un dispositivo de almacenamiento"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 5,
+    "question": "¿Qué empresa desarrolló el modelo de lenguaje ChatGPT?",
+    "answers": [
+      "OpenAI",
+      "Google",
+      "Microsoft",
+      "Facebook"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 6,
+    "question": "¿Cómo se entrena una IA?",
+    "answers": [
+      "Con grandes volúmenes de datos",
+      "Instalando un software especial",
+      "Con solo una línea de código",
+      "Colocándole sensores físicos"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 7,
+    "question": "¿Qué es la ética en la IA?",
+    "answers": [
+      "El estudio de los impactos morales y sociales de la IA",
+      "Un tipo de algoritmo",
+      "Un lenguaje de programación",
+      "Un dispositivo de hardware"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 8,
+    "question": "¿Qué es la robótica en IA?",
+    "answers": [
+      "La combinación de inteligencia artificial con robots físicos",
+      "Un software para videojuegos",
+      "Un lenguaje de programación",
+      "Un tipo de red social"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 9,
+    "question": "¿Cuál es una ventaja de la IA en la educación?",
+    "answers": [
+      "Personalización del aprendizaje",
+      "Eliminación de todos los maestros",
+      "Menos acceso a la información",
+      "Mayor tiempo de espera para resolver dudas"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 19,
+    "question": "¿Cuál es un ejemplo de IA en la medicina?",
+    "answers": [
+      "Diagnóstico asistido por IA",
+      "Uso de videojuegos en hospitales",
+      "Robots limpiadores",
+      "Cámaras de seguridad"
+    ],
+    "correctAnswer": 0
+  }
 ]
