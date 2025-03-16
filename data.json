@@ -1,112 +1,113 @@
 [
-  {
-    "id": 1,
-    "question": "¿Qué es la Inteligencia Artificial (IA)?",
-    "answers": [
-      "Una rama de la informática que busca crear máquinas inteligentes",
-      "Un tipo de red social",
-      "Un lenguaje de programación",
-      "Un dispositivo electrónico"
-    ],
-    "correctAnswer": 0
-  },
-  {
-    "id": 2,
-    "question": "¿Cuál de los siguientes es un ejemplo de IA en la vida diaria?",
-    "answers": [
-      "Asistentes virtuales como Siri o Alexa",
-      "Calculadoras básicas",
-      "Lámparas inteligentes",
-      "Televisores antiguos"
-    ],
-    "correctAnswer": 0
-  },
-  {
-    "id": 3,
-    "question": "¿Qué es el aprendizaje automático (Machine Learning)?",
-    "answers": [
-      "Un subcampo de la IA que permite a las máquinas aprender de los datos",
-      "Un tipo de hardware",
-      "Un lenguaje de programación",
-      "Una red social"
-    ],
-    "correctAnswer": 0
-  },
-  {
-    "id": 4,
-    "question": "¿Qué es un chatbot?",
-    "answers": [
-      "Un programa que simula conversaciones humanas",
-      "Un tipo de robot físico",
-      "Un lenguaje de programación",
-      "Un dispositivo de almacenamiento"
-    ],
-    "correctAnswer": 0
-  },
-  {
-    "id": 5,
-    "question": "¿Qué empresa desarrolló el modelo de lenguaje ChatGPT?",
-    "answers": [
-      "OpenAI",
-      "Google",
-      "Microsoft",
-      "Facebook"
-    ],
-    "correctAnswer": 0
-  },
-  {
-    "id": 6,
-    "question": "¿Cómo se entrena una IA?",
-    "answers": [
-      "Con grandes volúmenes de datos",
-      "Instalando un software especial",
-      "Con solo una línea de código",
-      "Colocándole sensores físicos"
-    ],
-    "correctAnswer": 0
-  },
-  {
-    "id": 7,
-    "question": "¿Qué es la ética en la IA?",
-    "answers": [
-      "El estudio de los impactos morales y sociales de la IA",
-      "Un tipo de algoritmo",
-      "Un lenguaje de programación",
-      "Un dispositivo de hardware"
-    ],
-    "correctAnswer": 0
-  },
-  {
-    "id": 8,
-    "question": "¿Qué es la robótica en IA?",
-    "answers": [
-      "La combinación de inteligencia artificial con robots físicos",
-      "Un software para videojuegos",
-      "Un lenguaje de programación",
-      "Un tipo de red social"
-    ],
-    "correctAnswer": 0
-  },
-  {
-    "id": 9,
-    "question": "¿Cuál es una ventaja de la IA en la educación?",
-    "answers": [
-      "Personalización del aprendizaje",
-      "Eliminación de todos los maestros",
-      "Menos acceso a la información",
-      "Mayor tiempo de espera para resolver dudas"
-    ],
-    "correctAnswer": 0
-  },
-  {
-    "id": 19,
-    "question": "¿Cuál es un ejemplo de IA en la medicina?",
-    "answers": [
-      "Diagnóstico asistido por IA",
-      "Uso de videojuegos en hospitales",
-      "Robots limpiadores",
-      "Cámaras de seguridad"
-    ],
-    "correctAnswer": 0
-  }
-]
+    {
+      "id": 1,
+      "question": "¿Qué es la Inteligencia Artificial (IA)?",
+      "answers": [
+        "Un dispositivo electrónico",
+        "Una rama de la informática que busca crear máquinas inteligentes",
+        "Un tipo de red social",
+        "Un lenguaje de programación"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 2,
+      "question": "¿Cuál de los siguientes es un ejemplo de IA en la vida diaria?",
+      "answers": [
+        "Calculadoras básicas",
+        "Lámparas inteligentes",
+        "Asistentes virtuales como Siri o Alexa",
+        "Televisores antiguos"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 3,
+      "question": "¿Qué es el aprendizaje automático (Machine Learning)?",
+      "answers": [
+        "Un tipo de hardware",
+        "Un subcampo de la IA que permite a las máquinas aprender de los datos",
+        "Una red social",
+        "Un lenguaje de programación"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 4,
+      "question": "¿Qué es un chatbot?",
+      "answers": [
+        "Un dispositivo de almacenamiento",
+        "Un tipo de robot físico",
+        "Un programa que simula conversaciones humanas",
+        "Un lenguaje de programación"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 5,
+      "question": "¿Qué empresa desarrolló el modelo de lenguaje ChatGPT?",
+      "answers": [
+        "Google",
+        "Facebook",
+        "OpenAI",
+        "Microsoft"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 6,
+      "question": "¿Cómo se entrena una IA?",
+      "answers": [
+        "Instalando un software especial",
+        "Con grandes volúmenes de datos",
+        "Con solo una línea de código",
+        "Colocándole sensores físicos"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 7,
+      "question": "¿Qué es la ética en la IA?",
+      "answers": [
+        "Un dispositivo de hardware",
+        "Un lenguaje de programación",
+        "Un tipo de algoritmo",
+        "El estudio de los impactos morales y sociales de la IA"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 8,
+      "question": "¿Qué es la robótica en IA?",
+      "answers": [
+        "Un lenguaje de programación",
+        "Un software para videojuegos",
+        "La combinación de inteligencia artificial con robots físicos",
+        "Un tipo de red social"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 9,
+      "question": "¿Cuál es una ventaja de la IA en la educación?",
+      "answers": [
+        "Menos acceso a la información",
+        "Mayor tiempo de espera para resolver dudas",
+        "Personalización del aprendizaje",
+        "Eliminación de todos los maestros"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 19,
+      "question": "¿Cuál es un ejemplo de IA en la medicina?",
+      "answers": [
+        "Uso de videojuegos en hospitales",
+        "Diagnóstico asistido por IA",
+        "Cámaras de seguridad",
+        "Robots limpiadores"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+  

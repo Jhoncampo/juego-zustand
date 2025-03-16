@@ -78,7 +78,7 @@ export const useQuestionsStore = create<State>()(
           },
           sentEmail: async () => {
             //await sendAnswersEmail()
-            console.log("hola")
+            
           }
         };
       },
