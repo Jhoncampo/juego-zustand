@@ -2,7 +2,7 @@ import axios from "axios";
 
 export const sendAnswers = async (email: string) => {
   try {
-    const res = await axios.post("http://localhost:3000/api/send-email", {
+    const res = await axios.post("https://api-preguntas-ia.vercel.app/api/send-email", {
       to: email,
       subject: "Respuestas",
       html: `<!DOCTYPE html>
