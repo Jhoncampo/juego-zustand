@@ -29,7 +29,7 @@ function App() {
         >
           <img
             style={{ height: "60px", borderRadius: "6px" }}
-            src="https://cd.empresataxis.online/logo-ia.webp"
+            src="https://cdn.taxiscolombia.online/logo-ia.webp"
             alt=""
           />
           <Typography sx={{ fontSize: "1.7rem", textAlign: "center" }} component="h1">
